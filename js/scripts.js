@@ -13,6 +13,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             dataLayer.push(arguments);
         }
         gtag('js', new Date());
-        gtag('config', 'YOUR_TRACKING_ID'); // Replace 'YOUR_TRACKING_ID' with your actual GA tracking ID
+        gtag('config', 'YOUR_TRACKING_ID'); 
     });
 });
